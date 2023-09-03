@@ -1,0 +1,372 @@
+2023-09-02 20:25:34,040 +0530 [main] INFO  (DriverManager.java:102) - Opening browser is successful with browser CHROME
+2023-09-02 20:25:41,102 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //p[contains(text(), 'Digital Pulse')]
+2023-09-02 20:25:41,174 +0530 [main] INFO  (HomePageSteps.java:33) - Home page is displayed
+2023-09-02 20:25:41,211 +0530 [main] INFO  (HomePageSteps.java:41) - 3 columns of articles are present
+2023-09-02 20:25:41,243 +0530 [main] INFO  (HomePageSteps.java:48) - 2 articles are present in the left column
+2023-09-02 20:25:41,275 +0530 [main] INFO  (HomePageSteps.java:55) - 1 article is present in the middle column
+2023-09-02 20:25:41,305 +0530 [main] INFO  (HomePageSteps.java:62) - 4 articles are present in the right column
+2023-09-02 20:25:44,432 +0530 [main] INFO  (DriverManager.java:102) - Opening browser is successful with browser CHROME
+2023-09-02 20:25:50,183 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //p[contains(text(), 'Digital Pulse')]
+2023-09-02 20:25:50,250 +0530 [main] INFO  (HomePageSteps.java:33) - Home page is displayed
+2023-09-02 20:25:50,325 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //a[contains(@navigation-title,'Subscribe')]
+2023-09-02 20:25:53,380 +0530 [main] INFO  (HomePageSteps.java:68) - Clicked Subscribe Link
+2023-09-02 20:25:53,454 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //h2[contains(text(), 'Subscribe')]
+2023-09-02 20:25:53,500 +0530 [main] INFO  (SubscribePageSteps.java:27) - Subscribe page is displayed
+2023-09-02 20:25:54,719 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //div[text()='reCAPTCHA']
+2023-09-02 20:25:57,526 +0530 [main] INFO  (DriverManager.java:102) - Opening browser is successful with browser CHROME
+2023-09-02 20:26:03,413 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //button[text()='Search']
+2023-09-02 20:26:03,637 +0530 [main] INFO  (HomePageSteps.java:74) - Clicked on Search Button
+2023-09-02 20:26:03,679 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //input[@name='searchfield']
+2023-09-02 20:26:03,907 +0530 [main] INFO  (HomePageSteps.java:82) - Text entered into the Searchbox
+2023-09-02 20:26:03,967 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //input[@type='submit']
+2023-09-02 20:26:10,294 +0530 [main] INFO  (HomePageSteps.java:89) - Clicked on the Submit Search button
+2023-09-02 20:26:10,351 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //h2[contains(text(),'Refine your search')]
+2023-09-02 20:26:10,381 +0530 [main] INFO  (SearchResultPageSteps.java:26) - Search Result page is displayed
+2023-09-02 20:26:10,399 +0530 [main] INFO  (SearchResultPageSteps.java:34) - Min 1 search result is present
+2023-09-02 20:26:11,212 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,212 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2023-09-02 20:26:11,212 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2023-09-02 20:26:11,212 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2023-09-02 20:26:11,506 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,507 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2023-09-02 20:26:11,508 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2023-09-02 20:26:11,509 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2023-09-02 20:26:11,515 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,516 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2023-09-02 20:26:11,518 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2023-09-02 20:26:11,518 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2023-09-02 20:26:11,535 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,536 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2023-09-02 20:26:11,537 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2023-09-02 20:26:11,537 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2023-09-02 20:26:11,554 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,555 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2023-09-02 20:26:11,555 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2023-09-02 20:26:11,556 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2023-09-02 20:26:11,567 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/test-view/v3-html-bdd.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,567 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-bdd_en.ftl"): Not found
+2023-09-02 20:26:11,569 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-bdd.ftl"): Found
+2023-09-02 20:26:11,569 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/test-view/v3-html-bdd.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-bdd.ftl"
+2023-09-02 20:26:11,611 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,612 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2023-09-02 20:26:11,612 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2023-09-02 20:26:11,613 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2023-09-02 20:26:11,619 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,620 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2023-09-02 20:26:11,621 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2023-09-02 20:26:11,622 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2023-09-02 20:26:11,626 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,626 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2023-09-02 20:26:11,628 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2023-09-02 20:26:11,628 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2023-09-02 20:26:11,633 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,634 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2023-09-02 20:26:11,635 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2023-09-02 20:26:11,635 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2023-09-02 20:26:11,639 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,640 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2023-09-02 20:26:11,642 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2023-09-02 20:26:11,642 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2023-09-02 20:26:11,655 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/test.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,656 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/test_en.ftl"): Not found
+2023-09-02 20:26:11,657 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/test.ftl"): Found
+2023-09-02 20:26:11,658 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/test.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/test.ftl"
+2023-09-02 20:26:11,665 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-variables.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,666 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2023-09-02 20:26:11,667 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2023-09-02 20:26:11,668 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-variables.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-variables.ftl"
+2023-09-02 20:26:11,677 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-macros.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,677 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2023-09-02 20:26:11,678 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2023-09-02 20:26:11,678 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-macros.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-macros.ftl"
+2023-09-02 20:26:11,682 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/macros/attributes.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,682 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2023-09-02 20:26:11,684 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2023-09-02 20:26:11,684 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/macros/attributes.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/macros/attributes.ftl"
+2023-09-02 20:26:11,687 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/macros/log.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,688 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2023-09-02 20:26:11,688 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2023-09-02 20:26:11,688 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/macros/log.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/macros/log.ftl"
+2023-09-02 20:26:11,690 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,691 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2023-09-02 20:26:11,692 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2023-09-02 20:26:11,692 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/macros/recurse_nodes.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/macros/recurse_nodes.ftl"
+2023-09-02 20:26:11,695 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - "spark/macros/log.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-09-02 20:26:11,695 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,695 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2023-09-02 20:26:11,696 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2023-09-02 20:26:11,696 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/head.ftl"
+2023-09-02 20:26:11,698 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,699 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2023-09-02 20:26:11,700 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2023-09-02 20:26:11,700 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-css.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-css.ftl"
+2023-09-02 20:26:11,702 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/navbar.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,703 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2023-09-02 20:26:11,703 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2023-09-02 20:26:11,704 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/navbar.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/navbar.ftl"
+2023-09-02 20:26:11,707 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,708 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2023-09-02 20:26:11,709 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2023-09-02 20:26:11,709 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/sidenav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/sidenav.ftl"
+2023-09-02 20:26:11,713 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,713 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
+2023-09-02 20:26:11,713 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
+2023-09-02 20:26:11,713 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/bdd-content.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/bdd-content.ftl"
+2023-09-02 20:26:11,726 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/scripts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,727 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2023-09-02 20:26:11,729 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2023-09-02 20:26:11,730 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/scripts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/scripts.ftl"
+2023-09-02 20:26:11,732 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,732 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2023-09-02 20:26:11,732 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2023-09-02 20:26:11,732 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-js.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-js.ftl"
+2023-09-02 20:26:11,732 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/tag.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,732 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/tag_en.ftl"): Not found
+2023-09-02 20:26:11,742 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/tag.ftl"): Found
+2023-09-02 20:26:11,742 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/tag.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/tag.ftl"
+2023-09-02 20:26:11,745 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-variables.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,746 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2023-09-02 20:26:11,747 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2023-09-02 20:26:11,747 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-variables.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-variables.ftl"
+2023-09-02 20:26:11,750 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,751 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2023-09-02 20:26:11,752 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2023-09-02 20:26:11,752 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/head.ftl"
+2023-09-02 20:26:11,755 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,756 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2023-09-02 20:26:11,757 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2023-09-02 20:26:11,757 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-css.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-css.ftl"
+2023-09-02 20:26:11,759 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/navbar.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,760 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2023-09-02 20:26:11,760 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2023-09-02 20:26:11,760 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/navbar.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/navbar.ftl"
+2023-09-02 20:26:11,762 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,762 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2023-09-02 20:26:11,763 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2023-09-02 20:26:11,763 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/sidenav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/sidenav.ftl"
+2023-09-02 20:26:11,766 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/scripts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,767 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2023-09-02 20:26:11,767 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2023-09-02 20:26:11,767 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/scripts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/scripts.ftl"
+2023-09-02 20:26:11,768 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,769 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2023-09-02 20:26:11,769 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2023-09-02 20:26:11,770 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-js.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-js.ftl"
+2023-09-02 20:26:11,773 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/dashboard.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,775 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/dashboard_en.ftl"): Not found
+2023-09-02 20:26:11,776 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/dashboard.ftl"): Found
+2023-09-02 20:26:11,776 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/dashboard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/dashboard.ftl"
+2023-09-02 20:26:11,798 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-variables.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,799 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2023-09-02 20:26:11,800 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2023-09-02 20:26:11,800 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-variables.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-variables.ftl"
+2023-09-02 20:26:11,804 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,805 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2023-09-02 20:26:11,806 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2023-09-02 20:26:11,806 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/head.ftl"
+2023-09-02 20:26:11,809 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,810 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2023-09-02 20:26:11,810 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2023-09-02 20:26:11,810 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-css.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-css.ftl"
+2023-09-02 20:26:11,812 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/navbar.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,812 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2023-09-02 20:26:11,813 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2023-09-02 20:26:11,813 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/navbar.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/navbar.ftl"
+2023-09-02 20:26:11,816 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,816 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2023-09-02 20:26:11,817 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2023-09-02 20:26:11,817 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/sidenav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/sidenav.ftl"
+2023-09-02 20:26:11,834 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/scripts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,834 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2023-09-02 20:26:11,835 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2023-09-02 20:26:11,835 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/scripts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/scripts.ftl"
+2023-09-02 20:26:11,836 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-02 20:26:11,837 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2023-09-02 20:26:11,837 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2023-09-02 20:26:11,837 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-js.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-js.ftl"
+2023-09-03 08:17:10,798 +0530 [main] INFO  (DriverManager.java:102) - Opening browser is successful with browser CHROME
+2023-09-03 08:17:25,417 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //p[contains(text(), 'Digital Pulse')]
+2023-09-03 08:17:25,501 +0530 [main] INFO  (HomePageSteps.java:33) - Home page is displayed
+2023-09-03 08:17:25,550 +0530 [main] INFO  (HomePageSteps.java:41) - 3 columns of articles are present
+2023-09-03 08:17:25,584 +0530 [main] INFO  (HomePageSteps.java:48) - 2 articles are present in the left column
+2023-09-03 08:17:25,622 +0530 [main] INFO  (HomePageSteps.java:55) - 1 article is present in the middle column
+2023-09-03 08:17:25,675 +0530 [main] INFO  (HomePageSteps.java:62) - 4 articles are present in the right column
+2023-09-03 08:17:32,276 +0530 [main] INFO  (DriverManager.java:102) - Opening browser is successful with browser CHROME
+2023-09-03 08:17:39,633 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //p[contains(text(), 'Digital Pulse')]
+2023-09-03 08:17:39,734 +0530 [main] INFO  (HomePageSteps.java:33) - Home page is displayed
+2023-09-03 08:17:39,818 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //a[contains(@navigation-title,'Subscribe')]
+2023-09-03 08:17:43,693 +0530 [main] INFO  (HomePageSteps.java:68) - Clicked Subscribe Link
+2023-09-03 08:17:43,839 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //h2[contains(text(), 'Subscribe')]
+2023-09-03 08:17:43,908 +0530 [main] INFO  (SubscribePageSteps.java:27) - Subscribe page is displayed
+2023-09-03 08:17:45,747 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //div[text()='reCAPTCHA']
+2023-09-03 08:17:52,340 +0530 [main] INFO  (DriverManager.java:102) - Opening browser is successful with browser CHROME
+2023-09-03 08:18:00,483 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //button[text()='Search']
+2023-09-03 08:18:00,750 +0530 [main] INFO  (HomePageSteps.java:74) - Clicked on Search Button
+2023-09-03 08:18:00,854 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //input[@name='searchfield']
+2023-09-03 08:18:01,270 +0530 [main] INFO  (HomePageSteps.java:82) - Text entered into the Searchbox
+2023-09-03 08:18:01,407 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //input[@type='submit']
+2023-09-03 08:18:08,572 +0530 [main] INFO  (HomePageSteps.java:89) - Clicked on the Submit Search button
+2023-09-03 08:18:08,726 +0530 [main] INFO  (Wait.java:51) - Element found: By.xpath: //h2[contains(text(),'Refine your search')]
+2023-09-03 08:18:08,819 +0530 [main] INFO  (SearchResultPageSteps.java:26) - Search Result page is displayed
+2023-09-03 08:18:08,868 +0530 [main] INFO  (SearchResultPageSteps.java:34) - Min 1 search result is present
+2023-09-03 08:18:10,863 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:10,866 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2023-09-03 08:18:10,871 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2023-09-03 08:18:10,872 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2023-09-03 08:18:11,472 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,475 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2023-09-03 08:18:11,477 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2023-09-03 08:18:11,478 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2023-09-03 08:18:11,489 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,490 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2023-09-03 08:18:11,494 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2023-09-03 08:18:11,495 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2023-09-03 08:18:11,535 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,537 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2023-09-03 08:18:11,540 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2023-09-03 08:18:11,541 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2023-09-03 08:18:11,581 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,582 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2023-09-03 08:18:11,584 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2023-09-03 08:18:11,584 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2023-09-03 08:18:11,619 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/test-view/v3-html-bdd.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,622 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-bdd_en.ftl"): Not found
+2023-09-03 08:18:11,624 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-bdd.ftl"): Found
+2023-09-03 08:18:11,625 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/test-view/v3-html-bdd.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-bdd.ftl"
+2023-09-03 08:18:11,733 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,736 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2023-09-03 08:18:11,739 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2023-09-03 08:18:11,739 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2023-09-03 08:18:11,758 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,760 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2023-09-03 08:18:11,762 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2023-09-03 08:18:11,763 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2023-09-03 08:18:11,772 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,773 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2023-09-03 08:18:11,775 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2023-09-03 08:18:11,775 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2023-09-03 08:18:11,781 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,782 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2023-09-03 08:18:11,783 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2023-09-03 08:18:11,783 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2023-09-03 08:18:11,795 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,796 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2023-09-03 08:18:11,798 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2023-09-03 08:18:11,798 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2023-09-03 08:18:11,819 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/test.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,821 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/test_en.ftl"): Not found
+2023-09-03 08:18:11,822 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/test.ftl"): Found
+2023-09-03 08:18:11,822 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/test.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/test.ftl"
+2023-09-03 08:18:11,837 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-variables.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,839 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2023-09-03 08:18:11,841 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2023-09-03 08:18:11,841 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-variables.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-variables.ftl"
+2023-09-03 08:18:11,857 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-macros.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,859 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2023-09-03 08:18:11,861 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2023-09-03 08:18:11,861 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-macros.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-macros.ftl"
+2023-09-03 08:18:11,871 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/macros/attributes.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,874 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2023-09-03 08:18:11,876 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2023-09-03 08:18:11,876 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/macros/attributes.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/macros/attributes.ftl"
+2023-09-03 08:18:11,879 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/macros/log.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,881 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2023-09-03 08:18:11,886 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2023-09-03 08:18:11,886 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/macros/log.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/macros/log.ftl"
+2023-09-03 08:18:11,892 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,895 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2023-09-03 08:18:11,897 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2023-09-03 08:18:11,897 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/macros/recurse_nodes.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/macros/recurse_nodes.ftl"
+2023-09-03 08:18:11,901 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - "spark/macros/log.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2023-09-03 08:18:11,902 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,904 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2023-09-03 08:18:11,906 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2023-09-03 08:18:11,907 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/head.ftl"
+2023-09-03 08:18:11,914 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,917 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2023-09-03 08:18:11,918 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2023-09-03 08:18:11,919 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-css.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-css.ftl"
+2023-09-03 08:18:11,922 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/navbar.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,924 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2023-09-03 08:18:11,925 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2023-09-03 08:18:11,926 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/navbar.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/navbar.ftl"
+2023-09-03 08:18:11,931 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,932 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2023-09-03 08:18:11,934 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2023-09-03 08:18:11,935 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/sidenav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/sidenav.ftl"
+2023-09-03 08:18:11,946 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,948 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
+2023-09-03 08:18:11,949 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
+2023-09-03 08:18:11,950 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/bdd-content.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/bdd-content.ftl"
+2023-09-03 08:18:11,966 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/scripts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,968 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2023-09-03 08:18:11,970 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2023-09-03 08:18:11,970 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/scripts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/scripts.ftl"
+2023-09-03 08:18:11,974 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,975 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2023-09-03 08:18:11,977 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2023-09-03 08:18:11,977 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-js.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-js.ftl"
+2023-09-03 08:18:11,981 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/tag.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,982 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/tag_en.ftl"): Not found
+2023-09-03 08:18:11,983 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/tag.ftl"): Found
+2023-09-03 08:18:11,984 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/tag.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/tag.ftl"
+2023-09-03 08:18:11,994 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-variables.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:11,996 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2023-09-03 08:18:11,997 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2023-09-03 08:18:11,998 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-variables.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-variables.ftl"
+2023-09-03 08:18:12,004 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,005 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2023-09-03 08:18:12,008 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2023-09-03 08:18:12,009 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/head.ftl"
+2023-09-03 08:18:12,015 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,017 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2023-09-03 08:18:12,018 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2023-09-03 08:18:12,019 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-css.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-css.ftl"
+2023-09-03 08:18:12,022 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/navbar.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,024 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2023-09-03 08:18:12,026 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2023-09-03 08:18:12,027 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/navbar.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/navbar.ftl"
+2023-09-03 08:18:12,031 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,032 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2023-09-03 08:18:12,033 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2023-09-03 08:18:12,033 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/sidenav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/sidenav.ftl"
+2023-09-03 08:18:12,041 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/scripts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,042 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2023-09-03 08:18:12,043 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2023-09-03 08:18:12,044 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/scripts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/scripts.ftl"
+2023-09-03 08:18:12,047 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,048 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2023-09-03 08:18:12,049 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2023-09-03 08:18:12,050 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-js.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-js.ftl"
+2023-09-03 08:18:12,055 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/dashboard.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,057 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/dashboard_en.ftl"): Not found
+2023-09-03 08:18:12,059 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/dashboard.ftl"): Found
+2023-09-03 08:18:12,060 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/dashboard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/dashboard.ftl"
+2023-09-03 08:18:12,093 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-variables.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,094 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2023-09-03 08:18:12,096 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2023-09-03 08:18:12,097 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-variables.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-variables.ftl"
+2023-09-03 08:18:12,104 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/head.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,105 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2023-09-03 08:18:12,107 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2023-09-03 08:18:12,107 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/head.ftl"
+2023-09-03 08:18:12,111 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,112 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2023-09-03 08:18:12,113 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2023-09-03 08:18:12,114 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-css.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-css.ftl"
+2023-09-03 08:18:12,117 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/navbar.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,120 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2023-09-03 08:18:12,121 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2023-09-03 08:18:12,122 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/navbar.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/navbar.ftl"
+2023-09-03 08:18:12,129 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,130 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2023-09-03 08:18:12,131 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2023-09-03 08:18:12,131 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/sidenav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/sidenav.ftl"
+2023-09-03 08:18:12,156 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "spark/partials/scripts.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,157 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2023-09-03 08:18:12,158 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2023-09-03 08:18:12,159 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "spark/partials/scripts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/spark/partials/scripts.ftl"
+2023-09-03 08:18:12,161 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en", UTF-8, parsed); will try to load it.
+2023-09-03 08:18:12,162 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2023-09-03 08:18:12,164 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2023-09-03 08:18:12,164 +0530 [main] DEBUG (_Log4jLoggerFactory.java:44) - Loading template for "commons/commons-inject-js.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/akumarsing017/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/commons/commons-inject-js.ftl"
