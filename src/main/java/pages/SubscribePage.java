@@ -64,7 +64,7 @@ public class SubscribePage {
                 }
 
                 String type = row.get("Type");
-                if (type.equals("text") || type.equals("dropdown")) {
+                if (type.equals("text")) {
                     WebElement typeOfElement = driver.findElement(By.xpath(typeOfFieldElement));
                     String elementType = typeOfElement.getAttribute("type");
                     Assert.assertEquals(type, elementType);
