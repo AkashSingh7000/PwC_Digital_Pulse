@@ -23,8 +23,8 @@ Feature: Validate PwCDigital Application
       |First Name            |true       |text     |
       |Last Name             |true       |text     |
       |Organisation          |true       |text     |
-      |Job title             |false      |text     |
-      |Business Email Address|true       |text    |
+      |Job Title             |true       |text     |
+      |Business Email Address|true       |text     |
       |State                 |true       |dropdown |
       |Countries             |true       |dropdown |
     And I will need to complete Google reCAPTCHA before I can complete my request

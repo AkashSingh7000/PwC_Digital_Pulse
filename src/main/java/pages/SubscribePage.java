@@ -18,8 +18,6 @@ public class SubscribePage {
     private static final String RECAPTCHAIFRAME = "//iframe[@title='reCAPTCHA']";
     private static final String FIELDS = "//label[contains(text(),'$value$')]";
     private static final String FIELDREQUIRED = "//label[contains(text(),'$value$')]/span[@class='required']";
-
-    private static final String FIELDNOTREQUIRED = "//label[contains(text(),'$value$')]";
     private static final String TYPEOFFIELD ="//label[contains(text(),'$value$')]/following-sibling::input";
 
     private static final String DROPDOWNFIELD = "//label[contains(text(),'$value$')]/following-sibling::select";
@@ -54,7 +52,6 @@ public class SubscribePage {
 
                 String filedName = FIELDS.replace("$value$", row.get("Field"));
                 String reqElement = FIELDREQUIRED.replace("$value$", row.get("Field"));
-                String notReqElement = FIELDNOTREQUIRED.replace("$value$", row.get("Field"));
                 String typeOfFieldElement = TYPEOFFIELD.replace("$value$", row.get("Field"));
 
                 WebElement element = driver.findElement(By.xpath(filedName));
@@ -65,15 +62,13 @@ public class SubscribePage {
                     WebElement reqelement = driver.findElement(By.xpath(reqElement));
                     Assert.assertTrue(reqelement.isDisplayed());
                 }
-                else {
-                    WebElement notReqelement = driver.findElement(By.xpath(notReqElement));
-                    Assert.assertTrue(notReqelement.isDisplayed());
-                }
 
                 String type = row.get("Type");
-                WebElement typeOfElement = driver.findElement(By.xpath(typeOfFieldElement));
-                String elementType = typeOfElement.getAttribute("type");
-                Assert.assertEquals(type, elementType);
+                if (type.equals("text") || type.equals("dropdown")) {
+                    WebElement typeOfElement = driver.findElement(By.xpath(typeOfFieldElement));
+                    String elementType = typeOfElement.getAttribute("type");
+                    Assert.assertEquals(type, elementType);
+                }
 
             }
             else

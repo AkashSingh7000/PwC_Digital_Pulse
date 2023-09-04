@@ -35,8 +35,8 @@ public class Wait {
 
     //This method is used to handle the conditions for hold of the execution.
     private static void until(WebDriver driver, Function<WebDriver, Boolean> waitCondition, Long timeoutInSeconds){
-        WebDriverWait webDriverWait = new WebDriverWait(driver, timeoutInSeconds);
-        webDriverWait.withTimeout(timeoutInSeconds, TimeUnit.SECONDS);
+        WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        webDriverWait.withTimeout(Duration.ofSeconds(timeoutInSeconds));
         try{
             webDriverWait.until(waitCondition);
         }catch (Exception e){
@@ -46,7 +46,7 @@ public class Wait {
 
     //This method is used to wait till the element is visible.
     public static WebElement untilVisible(WebDriver driver, By by, Integer timeoutInSeconds){
-        WebDriverWait webDriverWait = new WebDriverWait(driver, timeoutInSeconds);
+        WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(by));
         log.info("Element found: " + by);
         return driver.findElement(by);

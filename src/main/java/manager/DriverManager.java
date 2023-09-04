@@ -82,7 +82,10 @@ public class DriverManager {
             case FIREFOX : driver = new FirefoxDriver();
                 break;
             case CHROME :
-                //WebDriverManager.chromedriver().setup();
+
+             // We are using WebDriverManager 5.5.3 dependency for Chrome 116 version, but due to global protect security in our organisation the driver is not getting downloaded.
+             // We are using Selenium 4.11.0 dependency, but due to global protect security in our organisation the driver is not getting downloaded.
+             // Hence, we are using setProperty method to set the properties of chrome driver.
                 System.setProperty(CHROME_DRIVER_PROPERTY,driver_path);
                 String downloadFilepath = System.getProperty("user.dir") + "\\"+ "data"+"\\"+"reports\\download";
                 HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
@@ -92,13 +95,9 @@ public class DriverManager {
                 chromePrefs.put("download.default_directory", downloadFilepath);
                 ChromeOptions options = new ChromeOptions();
                 options.setExperimentalOption("prefs", chromePrefs);
-                DesiredCapabilities cap = DesiredCapabilities.chrome();
-                cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-                cap.setCapability(ChromeOptions.CAPABILITY, options);
-
                 try
                 {
-                    driver = new ChromeDriver(cap);
+                    driver = new ChromeDriver(options);
                     log.info("Opening browser is successful with browser " + driverType);
                 }
                 catch (Exception e)

@@ -41,6 +41,7 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
@@ -50,7 +51,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Sep 3, 2023 08:16:58 AM</span>
+			<span class='label blue darken-3 suite-start-time'>Sep 4, 2023 04:09:20 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -66,6 +67,8 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -119,10 +122,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -133,10 +136,10 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -147,10 +150,10 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>27</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='92.593%'><span class='strong'>25</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='3.704%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='3.704%'>1</span> others
                 </div>
             </div>
         </div>
@@ -168,11 +171,11 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Validate PwCDigital Application</span>
-						<span class='test-time'>Sep 3, 2023 08:16:59 AM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 4, 2023 04:09:21 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -185,7 +188,7 @@
     <div class='category-list'>
         <span class='category label'>@Sanity</span>
     </div>
-    <span class='duration right label'>0h 0m 27s+731ms</span>
+    <span class='duration right label'>0h 0m 16s+578ms</span>
     <div class="bdd-test">
         <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> ScenarioOutline: Articles Column verification of Homepage</div>
         <table class='runtime-table table-striped table'><tr><td>Page</td><td>ColNum</td><td>LeftCol</td><td>MiddleCol</td><td>RightCol</td><td>LeftColArticlesNum</td><td>MiddleColArticlesNum</td><td>RightColArticlesNum</td></tr><tr><td>Home</td><td>3</td><td>2</td><td>1</td><td>3</td><td>2</td><td>1</td><td>4</td></tr></table>
@@ -234,18 +237,18 @@
         </li>
     </ul>
 </div>
-<div class='scenariooutline node' test-id='13' status='pass'>
+<div class='scenariooutline node' test-id='13' status='fail'>
     <div class='category-list'>
         <span class='category label'>@Regression</span>
     </div>
-    <span class='duration right label'>0h 0m 20s+237ms</span>
+    <span class='duration right label'>0h 1m 14s+349ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> ScenarioOutline: Subscribe Page Fields Verification</div>
+        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> ScenarioOutline: Subscribe Page Fields Verification</div>
         <table class='runtime-table table-striped table'><tr><td>Page</td></tr><tr><td>Home</td></tr></table>
     </div>
     <ul class='steps'>
-        <li test-id='14' class='node scenario pass' status='pass'>
-            <div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Subscribe Page Fields Verification</div>
+        <li test-id='14' class='node scenario fail' status='fail'>
+            <div class="step-name" title=""><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Subscribe Page Fields Verification</div>
             <ul class='gc steps'>
                     <li test-id='15' class='gc asterisk pass' status='pass'>
                         <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Hooks.beforeScenario(Scenario)</h6>
@@ -267,13 +270,41 @@
                         <h6 class="step-name" title="SubscribePageSteps.iAmTakenToTheSubscribePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I am taken to the Subscribe page</h6>
                             <div class="node-step"></div>
                     </li>
-                    <li test-id='20' class='gc and pass' status='pass'>
-                        <h6 class="step-name" title="SubscribePageSteps.iAmPresentedWithTheBelowFields(DataTable)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And I am presented with the below fields</h6>
-                            <div class="node-step"><table class='runtime-table table-striped table'><tr><td>Field</td><td>Required</td><td>Type</td></tr><tr><td>First Name</td><td>true</td><td>text</td></tr><tr><td>Last Name</td><td>true</td><td>text</td></tr><tr><td>Organisation</td><td>true</td><td>text</td></tr><tr><td>Job title</td><td>false</td><td>text</td></tr><tr><td>Business Email Address</td><td>true</td><td>text</td></tr><tr><td>State</td><td>true</td><td>dropdown</td></tr><tr><td>Countries</td><td>true</td><td>dropdown</td></tr></table></div>
-                    </li>
-                    <li test-id='21' class='gc and pass' status='pass'>
-                        <h6 class="step-name" title="SubscribePageSteps.iWillNeedToCompleteGoogleReCAPTCHABeforeICanCompleteMyRequest()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And I will need to complete Google reCAPTCHA before I can complete my request</h6>
-                            <div class="node-step"></div>
+                    <li test-id='20' class='gc and fail' status='fail'>
+                        <h6 class="step-name" title="SubscribePageSteps.iAmPresentedWithTheBelowFields(DataTable)"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>And I am presented with the below fields</h6>
+                            <div class="node-step"><table class='runtime-table table-striped table'><tr><td>Field</td><td>Required</td><td>Type</td></tr><tr><td>First Name</td><td>true</td><td>text</td></tr><tr><td>Last Name</td><td>true</td><td>text</td></tr><tr><td>Organisation</td><td>true</td><td>text</td></tr><tr><td>Job Title</td><td>true</td><td>text</td></tr><tr><td>Business Email Address</td><td>true</td><td>text</td></tr><tr><td>State</td><td>true</td><td>dropdown</td></tr><tr><td>Countries</td><td>true</td><td>dropdown</td></tr></table></div>
+                            <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(),'Job Title')]/following-sibling::input"}
+  (Session info: chrome=116.0.5845.141)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [195b31fe0fde9e34c10f7553f42a2e8a, findElement {using=xpath, value=//label[contains(text(),'Job Title')]/following-sibling::input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AKUMAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50816/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 195b31fe0fde9e34c10f7553f42a2e8a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pages.SubscribePage.verifyFields(SubscribePage.java:68)
+	at stepDefinations.SubscribePageSteps.iAmPresentedWithTheBelowFields(SubscribePageSteps.java:34)
+	at ✽.I am presented with the below fields(src/test/resources/features/ColumnVerification.feature:21)
+</textarea>
+                                                </li>
+                    <li test-id='21' class='gc and skip' status='skip'>
+                        <h6 class="step-name" title="SubscribePageSteps.iWillNeedToCompleteGoogleReCAPTCHABeforeICanCompleteMyRequest()"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And I will need to complete Google reCAPTCHA before I can complete my request</h6>
+                            <div class="node-step">Step skipped</div>
                     </li>
                     <li test-id='22' class='gc asterisk pass' status='pass'>
                         <h6 class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Hooks.afterScenario(Scenario)</h6>
@@ -291,7 +322,7 @@
     <div class='category-list'>
         <span class='category label'>@Regression</span>
     </div>
-    <span class='duration right label'>0h 0m 23s+436ms</span>
+    <span class='duration right label'>0h 0m 16s+40ms</span>
     <div class="bdd-test">
         <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> ScenarioOutline: Search Page Results Count Verification</div>
         <table class='runtime-table table-striped table'><tr><td>TextToEnter</td><td>MinNoResults</td></tr><tr><td>Single page applications</td><td>1</td></tr></table>
@@ -404,12 +435,12 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 3, 2023 08:16:59 AM</td>
+										<td>Sep 4, 2023 04:09:21 PM</td>
 										<td class='linked' test-id='2'>Validate PwCDigital Application.Articles Column verification of Homepage</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 3, 2023 08:16:59 AM</td>
+										<td>Sep 4, 2023 04:09:21 PM</td>
 										<td class='linked' test-id='3'>Validate PwCDigital Application.Articles Column verification of Homepage.Articles Column verification of Homepage</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -422,13 +453,14 @@
 					<div class='category-heading'>
 						<span class='category-name'>@Regression</span>
 						<span class='category-status right'>
-						<span class='label pass'>4</span>
+						<span class='label pass'>2</span>
+						<span class='label fail'>2</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 4</span>
-							
+							<span status="pass" class='label green accent-4 white-text'>Passed: 2</span>
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 2</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -442,22 +474,22 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 3, 2023 08:17:27 AM</td>
+										<td>Sep 4, 2023 04:09:37 PM</td>
 										<td class='linked' test-id='13'>Validate PwCDigital Application.Subscribe Page Fields Verification</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 									<tr>
-										<td>Sep 3, 2023 08:17:27 AM</td>
+										<td>Sep 4, 2023 04:09:37 PM</td>
 										<td class='linked' test-id='14'>Validate PwCDigital Application.Subscribe Page Fields Verification.Subscribe Page Fields Verification</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 									<tr>
-										<td>Sep 3, 2023 08:17:47 AM</td>
+										<td>Sep 4, 2023 04:10:52 PM</td>
 										<td class='linked' test-id='24'>Validate PwCDigital Application.Search Page Results Count Verification</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 3, 2023 08:17:47 AM</td>
+										<td>Sep 4, 2023 04:10:52 PM</td>
 										<td class='linked' test-id='25'>Validate PwCDigital Application.Search Page Results Count Verification.Search Page Results Count Verification</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -475,7 +507,89 @@
 		</div>
 	</div>
 </div>
-<!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- category view --><div id='exception-view' class='view hide'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='exception-collection' class='exception-collection'>
+				<li class='exception displayed active'>
+					<div class='exception-heading'>
+						<span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+					</div>
+					<div class='exception-content hide'>
+						<div class='exception-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Sep 4, 2023 04:09:50 PM</td>
+										<td class='linked' test-id='20'>Validate PwCDigital Application.Subscribe Page Fields Verification.Subscribe Page Fields Verification.And I am presented with the below fields</td>
+										<td>
+											<textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(text(),'Job Title')]/following-sibling::input"}
+  (Session info: chrome=116.0.5845.141)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [195b31fe0fde9e34c10f7553f42a2e8a, findElement {using=xpath, value=//label[contains(text(),'Job Title')]/following-sibling::input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\AKUMAR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50816}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50816/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 195b31fe0fde9e34c10f7553f42a2e8a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pages.SubscribePage.verifyFields(SubscribePage.java:68)
+	at stepDefinations.SubscribePageSteps.iAmPresentedWithTheBelowFields(SubscribePageSteps.java:34)
+	at ✽.I am presented with the below fields(src/test/resources/features/ColumnVerification.feature:21)
+</textarea>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='exception-name'></h5>
+		</div>
+	</div>
+</div>
+<!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -501,19 +615,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 3, 2023 08:16:58 AM</div>
+					<div class='panel-lead'>Sep 4, 2023 04:09:20 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 3, 2023 08:18:10 AM</div>
+			 		<div class='panel-lead'>Sep 4, 2023 04:11:08 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 1m 12s+465ms</div>
+					<div class='panel-lead'>0h 1m 47s+400ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -539,11 +653,11 @@
 						</tr>
 						<tr>
 							<td>@Regression</td>
-							<td>4</td>
-							<td>0</td>
+							<td>2</td>
+							<td>2</td>
 							<td>0</td>
 							<td>
-									100%
+									50%
 							</td>
 						</tr>
 					</table>
@@ -558,38 +672,38 @@
 		<script>
 			var statusGroup = {
                 parentCount: 1,
-				passParent: 1,
-				failParent: 0,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				childCount: 3,
-				passChild: 3,
-				failChild: 0,
+				passChild: 2,
+				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 0,
+				exceptionsChild: 1,
 				grandChildCount: 27,
-				passGrandChild: 27,
-				failGrandChild: 0,
+				passGrandChild: 25,
+				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 0,
+				skipGrandChild: 1,
 				infoGrandChild: 0,
 				debugGrandChild: 0,
-				exceptionsGrandChild: 0,
+				exceptionsGrandChild: 2,
 			};
 		</script>
 		<script>
 			var timeline = {
-			        "Validate PwCDigital Application":71.414
+			        "Validate PwCDigital Application":106.983
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
